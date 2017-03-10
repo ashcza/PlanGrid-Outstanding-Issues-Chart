@@ -1,4 +1,4 @@
-#Chart component displaying outstanding issues by Stamp, based off of Issue Object in PlanGrid API. Utilizes Recharts react component library.
+##Chart component displaying outstanding issues by Stamp, based off of Issue Object in PlanGrid API. Utilizes Recharts react component library.
 
 ### `issue-chart.js`
 Contains react component using Recharts BarChart component.
