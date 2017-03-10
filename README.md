@@ -5,7 +5,7 @@ Contains react component using Recharts BarChart component.
 ### `filter.js`
 Contains logic for filtering and then aggregating data to allow the chart to receive it as props. Filters the issue object for the following:
 issue["deleted"] === false
-issue["due_at"] > Date.now
+issue["due_at"] < Date.now
 ### `issue-Objects.js`
 Contains mock issues to simulate chart experience. Many issues are purposely flagged as true for deleted property and/or set due date in the future to simulate issue filtering.
 
