@@ -1,16 +1,26 @@
-Chart component displaying outstanding issues by Stamp, based off of Issue Object in PlanGrid API. Utilizes Recharts react component library.
+#Chart component displaying outstanding issues by Stamp, based off of Issue Object in PlanGrid API. Utilizes Recharts react component library.
 
-issue-chart.js: contains react component using Recharts BarChart component.
-filter.js: contains logic for filtering and then aggregating data to allow the chart to receive it as props. Filters the issue object for the following:
+### `issue-chart.js`
+Contains react component using Recharts BarChart component.
+### `filter.js`
+Contains logic for filtering and then aggregating data to allow the chart to receive it as props. Filters the issue object for the following:
 - issue["deleted"] === false
 - issue["due_at"] > Date.now
-issue-Objects.js: contains mock issues to simulate chart experience
+### `issue-Objects.js`
+Contains mock issues to simulate chart experience
 
-## Available Scripts
+
+
+
+
+
+
+
+### Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+#### `npm start`
 
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
@@ -18,7 +28,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
-### `npm test`
+#### `npm test`
 
 Launches the test runner in the interactive watch mode.<br>
 See the section about [running tests](#running-tests) for more information.
@@ -33,7 +43,7 @@ Your app is ready to be deployed!
 
 See the section about [deployment](#deployment) for more information.
 
-### `npm run eject`
+#### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
