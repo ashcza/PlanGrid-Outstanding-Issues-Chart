@@ -7,7 +7,7 @@ Contains logic for filtering and then aggregating data to allow the chart to rec
 issue["deleted"] === false
 issue["due_at"] > Date.now
 ### `issue-Objects.js`
-Contains mock issues to simulate chart experience
+Contains mock issues to simulate chart experience. Many issues are purposely flagged as true for deleted property and/or set due date in the future to simulate issue filtering.
 
 
 
